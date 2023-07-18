@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main-body{
+    display: flex;
+    height: 500px;
+}
+.left-section{
+    margin-top: 50px;
+    width: 60%;
+}
+.right-section{
+    width: 40%;
+    background-image: url(images/Lunch1_vlksgq.webp);
+    background-position: center right;
+    background-size: cover;
+}
+.left-img{
+    width: 190px;
+    
+}
+.main-body .left-section nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;   
+
+}
+.left-section nav .sign-button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px 30px 10px;
+}
+.left-section nav button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    margin-inline: 10px;
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-body .right-section img{
+    width: 510px;
+    
+}
+.left-section .text-section{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.left-section .text-section h1{
+    font-size: 40px;
+}
+.left-section .text-section p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.text-section .input-section{
+    display: flex;
+    margin-top: 20px;
+}
+.input-section input{
+    width: 400px;
+    border: 1px solid gray;
+    border-right: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.input-section button{
+    width: 130px;
+    color: white;
+    background-color: #fc8019;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#inp-p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(145, 143, 143);
+}
+#inp-p2{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(82, 81, 81);
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(35, 17, 4);
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.card-section .card img{
+    width: 33%;
+}
+.plateforms{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 570px;
+    position: relative;
+    
+}
+.plateforms-align{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.plateforms-image-2,
+.plateforms-image-1{
+    height: 489px;
+    width: 382px;
+    text-align: right;
+}
+
+.plateforms-image-2{
+    position: absolute;
+    bottom: 0;
+    left: 880px;
+}
+.plateforms-image-1{
+    position: absolute;
+    left: 530px;
+}
+.plateforms-text{
+    width: 440px;
+    font-size: 19px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: rgb(126, 128, 140);
+}
+.plateforms-head{
+    width: 300px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.plateforms-image-link{
+    width: 200px;
+}
+#swiggy-icon{
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.center-footer{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.copyright,
+.footer-footer,
+.swiggy-logo-bottom,
+.social-media,
+.social-media-link,
+.footer-head-image,
+.footer-image-link,
+.link-type,
+.footer-link,
+.footer-head,
+.footer-align,
+.footer{
+    background-color: black;
+}
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-align{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.divider{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    outline-style: solid;
+    outline-color: #686b78;
+    outline-width: 1px;
+
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 10px;
+}
+.footer-head-image{
+    padding-left: 60px;
+}
+
+.footer-image-link{
+    height: 65px;
+    width: 200px;
+    margin: 20px;
+    border-color: whitesmoke;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+
+
+}
+.link-type{
+    color:#93959f;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+.social-media-link{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.swiggy-logo-bottom{
+    width: 141px;
+}
+.footer-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.copyright{
+    color: white;
+    padding-top: 10px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+
